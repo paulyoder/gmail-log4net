@@ -28,7 +28,7 @@ namespace YoderSolutions.Libs.GmailLog4Net
                     if (Evaluator.IsTriggeringEvent(@event))
                         triggeredMessage = string.Format("{0} - {1}", 
                             @event.LoggerName, 
-                            @event.RenderedMessage); ;
+                            @event.RenderedMessage);
                 }
                 if (!String.IsNullOrEmpty(Layout.Footer))
                     writer.Write(Layout.Footer);
