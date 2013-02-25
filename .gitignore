@@ -2,6 +2,7 @@ bin/
 bin64/
 obj/
 *.suo
+*.user
 LinqToExcel.xml
 *ReSharper*
 *.zip
